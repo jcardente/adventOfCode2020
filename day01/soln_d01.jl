@@ -1,9 +1,8 @@
 # ------------------------------------------------------------
-# Solution to Advent of Code 2020 Puzzle 2
+# Solution to Advent of Code 2020 Day 1
 #
 # PUZZLE:
 #
-# Following from Puzzle 1
 # Before you leave, the Elves in accounting just need you to fix your
 # expense report (your puzzle input); apparently, something isn't quite
 # adding up.
