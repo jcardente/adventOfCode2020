@@ -52,6 +52,11 @@ end
 ```
 
 
+I also implemented a simple optimization of:
+1. Sorting the input values
+2. Early terminating the DP recursion if the current sum exceeds the target
+
+
 To solve the first puzzle, that function is called as follows,
 
 ```julia
