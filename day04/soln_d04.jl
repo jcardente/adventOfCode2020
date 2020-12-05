@@ -1,5 +1,5 @@
 # ------------------------------------------------------------
-# Solution to Advent of Code 2020 Puzzle Day 3
+# Solution to Advent of Code 2020 Puzzle Day 4
 #
 # PUZZLE:
 #
