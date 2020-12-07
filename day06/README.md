@@ -43,7 +43,7 @@ end
 groupsMerged = [reduce(mergefn, gset) for gset in groupSets]
 ```
 
-Then is was simply matter of summing the lengths of each 
+Then it was simply a matter of summing the lengths of each 
 merged group set,
 
 ```julia
