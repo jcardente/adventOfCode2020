@@ -78,7 +78,7 @@ function findAllParents(bagsDict, bagname)
         push!(parents, c)
         union!(nextCandidates, bagsDict[c].parents)
       end
-    candidates = nextCandidates
+      candidates = nextCandidates
     end
   end    
   return [p for p in parents]
@@ -96,12 +96,10 @@ function countAllChildren(bagsDict, bagname)
     return 0
   end
 
-  # NB - count the bags contained and then
-  #      sum number of bags they contain!
-  nchildren   = sum(values(bag.contents))
-  childCounts = [countAllChildren(bagsDict, n)*v for (n,v) in bag.contents]
+  # NB - Besure to count the bag and it's children!
+  childCounts = [(1+countAllChildren(bagsDict, n))*v for (n,v) in bag.contents]
   
-  return nchildren + sum(childCounts)
+  return sum(childCounts)
 end
 ```
 
