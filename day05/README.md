@@ -41,7 +41,7 @@ end
 ```
 
 For part 1, I just passed the list of seat IDs to Julia's `max()` function. For part
-2, I sorted the list of ideas and simply looked for the first adjacent pair of values
+2, I sorted the list of IDs and simply looked for the first adjacent pair of values
 that differed by 2. 
 
 ```julia
