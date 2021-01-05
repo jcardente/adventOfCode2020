@@ -1,6 +1,6 @@
 # Day 18 Solutions
 
-[Day 18](https://adventofcode.com/2020/day/17) required parsing and evaluating infix
+[Day 18](https://adventofcode.com/2020/day/18) required parsing and evaluating infix
 math equations with non-standard operator precedance rules. 
 
 The puzzle input were equations such as,
