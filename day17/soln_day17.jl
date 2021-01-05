@@ -28,7 +28,7 @@
 # (your puzzle input); the cubes in this region start in the specified
 # active (#) or inactive (.) state.
 # 
-# The energy source then proceeds to boot up by executing six cycles.                                                                                                                                                                                                                       
+# The energy source then proceeds to boot up by executing six cycles.
 #
 # Each cube only ever considers its neighbors: any of the 26 other
 # cubes where any of their coordinates differ by at most 1. For
