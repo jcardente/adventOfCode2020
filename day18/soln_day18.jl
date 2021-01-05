@@ -149,7 +149,7 @@ function string(o::Op)
 end
 
 
-function shuntingYardPart(s, opPriorities)
+function shuntingYard(s, opPriorities)
   operands = Expression[]
   opstack  = Char[]
 
@@ -265,7 +265,7 @@ function main()
   
   results = Int64[]
   for l in lines  
-    result = shuntingYardPart(l, opPriorities)
+    result = shuntingYard(l, opPriorities)
       
     #println("----")
     #@printf("%d = %s\n", result, l)
