@@ -446,7 +446,7 @@ function inputLoad(fname)
 end
 
 
-function playGameP1(d1, d2) #::Array{Int64,1}, d2::Array{Int64,1})
+function playGameP1(d1, d2) 
   rounds = 0
   while ((length(d1) > 0) && (length(d2) > 0))
     c1 = d1[1]
