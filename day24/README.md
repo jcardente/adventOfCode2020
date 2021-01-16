@@ -1,6 +1,6 @@
 # Day 24 Solutions
 
-[Day 24](https://adventofcode.com/2020/day/23) involved flipping tiles in
+[Day 24](https://adventofcode.com/2020/day/24) involved flipping tiles in
 a hexoganol grid. 
 
 To start, all of the tiles in the hexagonal tile floor were white side
