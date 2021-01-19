@@ -19,7 +19,7 @@ The cryptographic handshake consisted of,
 
 - The key card computes a public key using the subject value 7
   and a secret loop size
-- The door computes a public key key using the subject value 7
+- The door computes a public key using the subject value 7
   and a different secret loop size
 - The public keys are exchanged
 - The card computes a new key using the door's public key as the
@@ -27,14 +27,14 @@ The cryptographic handshake consisted of,
 - The door computes a new key using the card's public key as the
   subject value and its secret loop size
   
-The puzzle input was the door's and card's public key. Each could
+The puzzle input was the door lock's and key card's public key. Each could
 be used to find secret loop size through a simple brute force
 algorithm. Once one secret loop size was found, the final encryption
 key could be calculated. 
 
 This being Christmas day, the solution was fairly trivial and simply
-required implementing the brute force algorithm described in the puzzle
-description,
+required implementing the transformation operation and brute force 
+searching for the loop counts that produce the public keys.
 
 ```julia
 function findLoopSize(subnum, pk)
