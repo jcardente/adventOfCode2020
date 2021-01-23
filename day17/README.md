@@ -73,7 +73,7 @@ end
 ```
 
 One thing to note is that anytime a cube was activated, the size of the grid
-was expaneded so that it's neighbors would be considered in future simulation
+was expanded so that it's neighbors would be considered in future simulation
 steps. 
 
 I also wrote a routine to get a cube's neighbor states,
