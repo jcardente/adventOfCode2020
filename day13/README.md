@@ -61,7 +61,7 @@ For example, given the input above, the goal was to find a timestamp `t` such th
 
 This was one of the toughest puzzles in the competition. Naive solutions were extremely inefficient.
 I noticed that the bus ids were primes and remembered from graduate cryptography classes that modulo 
-arthmetic has some interesting properties when working with (relative primes)[https://en.wikipedia.org/wiki/Coprime_integers].
+arthmetic has some interesting properties when working with [relative primes](https://en.wikipedia.org/wiki/Coprime_integers).
 But, I couldn't see the solution and eventually checked the subreddit for a hint. 
 
 The key to solving the puzzle was the [Chinese Remainder Theorem](https://en.wikipedia.org/wiki/Chinese_remainder_theorem)
