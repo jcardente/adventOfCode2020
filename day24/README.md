@@ -1,7 +1,7 @@
 # Day 24 Solutions
 
 [Day 24](https://adventofcode.com/2020/day/24) involved flipping tiles in
-a hexoganol grid. 
+a hexagonal grid. 
 
 To start, all of the tiles in the hexagonal tile floor were white side
 up. The puzzle input was a list of paths to tiles that needed to be
